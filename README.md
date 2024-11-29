@@ -1,6 +1,8 @@
 # bruno-postman-env-converter-lib
 ### This is a quick extraction on the logic Bruno uses to convert json environments to "bru" format
 
+$${\color{red}As\ of\ July\ 4th,\ Bruno\ supports\ bulk\ env\ imports}$$ [bulk import PR](https://github.com/usebruno/bruno/pull/2509). $${\color{red}This\ leaves\ the\ use\ case\ for\ this\ logic\ to\ be\ very\ niche.}$$
+
 >Most other API clients rely on JSON while Bruno leans on a custom BRU implementation. I simply checked their source code and extracted what's necessary to convert a *.json file to *.bru.
 
 * This code has been tested with **postman environments** and does not work standalone. Please check in case you're using Insomnia or something else.
