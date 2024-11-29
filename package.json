@@ -1,0 +1,23 @@
+{
+  "name": "bruno-postman-env-converter-lib",
+  "version": "1.0.0",
+  "description": "Postman to Bruno environment converter.",
+  "main": "convert.js",
+  "scripts": {
+    "get-env-name": "npx run-func convert.js getEnvName",
+    "convert-env": "npx run-func convert.js conversion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobaltoxid/bruno-postman-env-converter-lib.git"
+  },
+  "author": "kobaltoxid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kobaltoxid/bruno-postman-env-converter-lib/issues"
+  },
+  "homepage": "https://github.com/kobaltoxid/bruno-postman-env-converter-lib#readme",
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"id": "whoops-here",
+	"name": "Test API Env",
+	"values": [
+		{
+			"key": "USERNAME",
+			"value": "yeehaw",
+			"enabled": true
+		},
+		{
+			"key": "PASSWORD",
+			"value": "partner",
+			"enabled": true
+		},
+		{
+			"key": "FIRSTNAME",
+			"value": "Spam",
+			"enabled": true
+		},
+		{
+			"key": "LASTNAME",
+			"value": "Eggs",
+			"enabled": true
+		},
+		{
+			"key": "EMAIL",
+			"value": "test@example.com",
+			"enabled": true
+		},
+		{
+			"key": "ACCESS",
+			"value": null,
+			"enabled": true
+		},
+		{
+			"key": "REFRESH",
+			"value": null,
+			"enabled": true
+		},
+		{
+			"key": "CROCID",
+			"value": null,
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-04-07T14:22:43.758Z",
+	"_postman_exported_using": "Postman/7.21.2"
+}
